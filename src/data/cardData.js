@@ -1,0 +1,43 @@
+export const CARD_DATA = [
+  {
+    id: 0,
+    type: 'PREMIUM GOLD',
+    num: '•••• •••• •••• 4255',
+    name: 'Aditya Kr',
+    exp: '12/28',
+    brand: 'RUPAY',
+    balance: 4250,
+    limit: 10000,
+    className: 'bc-gold',
+    grad: 'linear-gradient(135deg,#7a5c1e,#c9a84c,#8b6914)',
+    spend: [820,640,910,750,1100,980,1250,870,1040,760,1380,1140],
+  },
+  {
+    id: 1,
+    type: 'DEBIT',
+    num: '•••• •••• •••• 4322',
+    name: 'Aditya Kr',
+    exp: '08/26',
+    brand: 'MasterCard',
+    balance: 2890,
+    limit: 5000,
+    className: 'bc-navy',
+    grad: 'linear-gradient(135deg,#1a203a,#2d3a60,#1a2440)',
+    spend: [320,410,280,560,490,370,620,540,430,710,580,650],
+  },
+  {
+    id: 2,
+    type: 'SAVINGS',
+    num: '•••• •••• •••• 1599',
+    name: 'Aditya Kr',
+    exp: '03/29',
+    brand: 'VISA',
+    balance: 8650,
+    limit: null,
+    className: 'bc-teal',
+    grad: 'linear-gradient(135deg,#0d2e28,#1a5c48,#0d3830)',
+    spend: [200,200,300,400,300,200,400,500,600,700,600,800],
+  },
+];
+
+export const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];

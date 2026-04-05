@@ -1,0 +1,81 @@
+/*
+  ── THEMES ──────────────────────────────────────────────────────────
+  Variables are defined on :root as dark defaults so they ALWAYS
+  resolve even before data-theme is set. The attribute selectors
+  below then override for each specific theme.
+  ────────────────────────────────────────────────────────────────── */
+
+/* ── Dark defaults on :root (prevents flash / unresolved vars) ── */
+:root {
+  --bg:   #0b0d12;
+  --bg2:  #0f1218;
+  --sur:  #141820;
+  --sur2: #1a2030;
+  --sur3: #1f2638;
+  --bdr:  rgba(255,255,255,.07);
+  --bdr2: rgba(255,255,255,.13);
+  --txt:  #edeae3;
+  --txt2: #8a8fa8;
+  --txt3: #404560;
+  --gold:  #c9a84c;
+  --gold2: #e8c97a;
+  --gg:    rgba(201,168,76,.13);
+  --green: #2dd4a0;
+  --gbg:   rgba(45,212,160,.1);
+  --red:   #f4637a;
+  --rbg:   rgba(244,99,122,.1);
+  --blue:  #4d9ef7;
+  --bbg:   rgba(77,158,247,.1);
+  --amber: #f5a623;
+  --abg:   rgba(245,166,35,.1);
+}
+
+/* ── Explicit dark theme (same as :root — keeps things predictable) ── */
+[data-theme="dark"] {
+  --bg:   #0b0d12;
+  --bg2:  #0f1218;
+  --sur:  #141820;
+  --sur2: #1a2030;
+  --sur3: #1f2638;
+  --bdr:  rgba(255,255,255,.07);
+  --bdr2: rgba(255,255,255,.13);
+  --txt:  #edeae3;
+  --txt2: #8a8fa8;
+  --txt3: #404560;
+  --gold:  #c9a84c;
+  --gold2: #e8c97a;
+  --gg:    rgba(201,168,76,.13);
+  --green: #2dd4a0;
+  --gbg:   rgba(45,212,160,.1);
+  --red:   #f4637a;
+  --rbg:   rgba(244,99,122,.1);
+  --blue:  #4d9ef7;
+  --bbg:   rgba(77,158,247,.1);
+  --amber: #f5a623;
+  --abg:   rgba(245,166,35,.1);
+}
+
+/* ── Light theme ── */
+[data-theme="light"] {
+  --bg:   #f4f2ed;
+  --bg2:  #ffffff;
+  --sur:  #ffffff;
+  --sur2: #f0ede6;
+  --sur3: #e8e4da;
+  --bdr:  rgba(0,0,0,.08);
+  --bdr2: rgba(0,0,0,.14);
+  --txt:  #1a1714;
+  --txt2: #6b6558;
+  --txt3: #b0a898;
+  --gold:  #a07c28;
+  --gold2: #c9a84c;
+  --gg:    rgba(160,124,40,.1);
+  --green: #157a58;
+  --gbg:   rgba(21,122,88,.1);
+  --red:   #b83050;
+  --rbg:   rgba(184,48,80,.1);
+  --blue:  #1a6fc4;
+  --bbg:   rgba(26,111,196,.1);
+  --amber: #b06010;
+  --abg:   rgba(176,96,16,.1);
+}
