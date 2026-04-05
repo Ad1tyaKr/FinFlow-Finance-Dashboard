@@ -24,7 +24,7 @@ npm install
 npm run dev        # http://localhost:3000
 npm run build      # production build
 ```  
-🔗 Live Demo: ddddd
+🔗 Live Demo: https://f1nflow-dashboard.vercel.app/
 
 > **Node.js ≥ 18** required. On first load, 25 mock transactions and 4 savings goals are seeded automatically into `localStorage`.
 
