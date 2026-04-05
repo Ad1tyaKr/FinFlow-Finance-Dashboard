@@ -1,8 +1,8 @@
 # FinFlow — Finance Dashboard
 
  A responsive personal finance dashboard built with **React 18 + Vite**. No UI framework — pure CSS variables, React Context, and Chart.js.  
- Goes beyond analytics by integrating card management, transaction tracking, and goal planning into a single workflow.  
- Also includes a built-in learning hub to help users make smarter financial decisions.  
+ Goes beyond analytics by integrating **card management**, **transaction tracking**, and **goal planning** into a single workflow.  
+ Also includes a built-in **learning hub** to help users make smarter financial decisions.  
 
 ![Dark Mode](https://img.shields.io/badge/Theme-Dark%20%2F%20Light-c9a84c?style=flat-square)
 ![React](https://img.shields.io/badge/React-18.2-61dafb?style=flat-square&logo=react)
@@ -77,8 +77,6 @@ npm run build      # production build
 | Charts | Chart.js 4 + react-chartjs-2 | 5 chart types, theme-aware |
 | Styling | Plain CSS variables | Zero dependencies, full control |
 | State | React Context + localStorage | Lightweight, no Redux needed |
-
-**No Tailwind. No MUI. No styled-components.** Every style is a handwritten CSS class using custom property tokens in `themes.css`.
 
 ---
 
